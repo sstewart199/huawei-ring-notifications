@@ -1,0 +1,22 @@
+{
+  "name": "huawei-ring-notifications",
+  "version": "1.0.0",
+  "description": "Ring notifications on latest huawei using termux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sstewart199/huawei-ring-notifications.git"
+  },
+  "author": "Shane Stewart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sstewart199/huawei-ring-notifications/issues"
+  },
+  "homepage": "https://github.com/sstewart199/huawei-ring-notifications#readme",
+  "dependencies": {
+    "ring-client-api": "^9.23.0"
+  }
+}
