@@ -3,7 +3,7 @@ const { RingApi } = require('ring-client-api'),
 
 async function subscribeToCameras() {
   const ringApi = new RingApi({
-        refreshToken: "XXXXXXX",
+        refreshToken: "eyJhbGciOiJIUzUxMiIsImprdSI6Ii9vYXV0aC9pbnRlcm5hbC9qd2tzIiwia2lkIjoiYzEyODEwMGIiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE2Mzk5MzUwNzAsImlzcyI6IlJpbmdPYXV0aFNlcnZpY2UtcHJvZDp1cy1lYXN0LTE6NTE5ODM4ODAiLCJyZWZyZXNoX2NpZCI6InJpbmdfb2ZmaWNpYWxfYW5kcm9pZCIsInJlZnJlc2hfc2NvcGVzIjpbImNsaWVudCJdLCJyZWZyZXNoX3VzZXJfaWQiOjQwNzQ4MTM0LCJybmQiOiI0UHdrTE85RFktYW9NQSIsInNlc3Npb25faWQiOiI2YjA1MTE0ZC0xMjUwLTQzOTUtOGQwMC1iY2VhMDE1MDZhYmMiLCJ0eXBlIjoicmVmcmVzaC10b2tlbiJ9.2i8ri3CWEKeYLcHp8kPtg_jsBSp6UUJzl0dKykhrH89ghJolZ52eI8K-8-U5UmqJWhrfoT3SMbBKodTUvz2wyA",
         // The following are all optional. See below for details
         cameraStatusPollingSeconds: 20,
         cameraDingsPollingSeconds: 2,
