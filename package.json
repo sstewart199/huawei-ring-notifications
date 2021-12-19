@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sstewart199/huawei-ring-notifications#readme",
   "dependencies": {
-    "ring-client-api": "^9.23.0"
+    "ring-client-api": "git+ssh://git@github.com/sstewart199/ring.git"
   }
 }
